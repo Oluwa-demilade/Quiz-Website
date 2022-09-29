@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav1{
+    background-color: #2d2d2d;
+    color: #ffd62b;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 1cm;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
+}
+.img1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-right: 150px;
+    margin-bottom: 200px;
+}
+.a1{
+    color: #ffd62b;
+    text-decoration: none;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.a1:hover{
+    color: white;
+    text-decoration: underline;
+}
+.a2{
+    color: #ffd62b;
+    text-decoration: none;
+}
+.a3{
+    color: white;
+    text-decoration: none;
+}
+.b1{
+    background-color: white;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    margin-left: 200px;
+}
+.b2{
+    background-color: #ffd62b;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    margin-left: 50px;
+}
+main{
+    background-image: url("/Images/hour\ glass.avif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1500px;
+    background-position: center;
+}
+h1{
+    padding-top: 3cm;
+    color: rgb(70, 60, 60);
+    font-size: 70px;
+    text-align: center;
+}
+h3{
+    margin-top: 30px;
+    color: rgb(70, 60, 60);
+    font-size: 20px;
+    text-align: center;
+    animation-name: hh;
+}
+@keyframes hh{
+    
+}
+.b4{
+    height: 60px;
+    width: 200px;
+    border: solid 2px white;
+    border-radius: 30px;
+    box-shadow: 0 0 50px 0 black;
+    margin-left: 2cm;
+    margin-top: 2cm;
+    background-color: gray;
+    text-align: center;
+}
+.sec1{
+    display: table;
+    margin-left: 1.5cm;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    margin-right: 1.5cm;
+    border-radius: 20px;
+    padding: 30px;
+}
+.sec2{
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0;
+    border-radius: 20px;
+}
+.sec3{
+    display: table-cell;
+    vertical-align: middle;
+    margin: -100px;
+    border-radius: 20px;
+}
+.p1{
+    color: black;
+}
+.div1{
+    border: solid 2px #E6FCFF;
+    border-radius: 20px;
+    box-shadow: 0 0 30px 0 gray;
+    background-color: #E6FCFF;
+    color: gray;
+    width: 450px;
+    height: 250px;
+    text-align: center;
+    margin-left: 3cm;
+}
+.div2{
+    border: solid 2px white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 gray;
+    background:linear-gradient(white,rgb(211, 208, 208));
+    color: gray;
+    width: 450px;
+    height: 250px;
+    text-align: center;
+    margin-right: 3cm;
+}
+.img2{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.div7{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+fieldset{
+    width: 368px;
+    height: 300px;
+    border: solid 3px white;
+    border-radius: 10px;
+    margin-right: 1cm;
+    margin-bottom: 1cm;
+    margin-left: 1cm;
+    background-color: white;
+    box-shadow: 0 0 20px 0 black; 
+}
+.b5{
+    background-color: gray;
+    color: white;
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    margin-left: 15cm;
+    margin-bottom: 1cm;
+}
+.nav2{
+    background-color: #2d2d2d;
+    color: white;
+    width: 100%x;
+    height: 400px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+.div3{
+    display: table;
+}
+.sec4{
+    display: table-cell;
+    vertical-align: middle;
+}
+.sec5{
+    display: block;
+}
+.p2{
+    margin-bottom: 20px;
+}
+.a4{
+    color: white;
+    text-decoration: none;
+    margin-left: 9cm;
+    margin-top: 10px;
+    margin-bottom: 3cm;
+}
+.a4:hover{
+    background-color: white;
+    color: gray;
+    text-decoration: none;
+}
+.h4{
+    margin-left: 14cm;
+    margin-bottom:20px;
+}
+.in1{
+    height: 30px;
+    width: 400px;
+    border: solid 2px gray;
+    border-radius: 20px;
+    margin-left: 11cm;
+}
+.b3{
+    background-color: gray;
+    color: white;
+    border: solid 2px white;
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+    margin-left: 11cm;
+}
+.p3{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+.img4{
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+}
+.p4{
+    margin-left: 9cm;
+    margin-top: 1cm;
+}
